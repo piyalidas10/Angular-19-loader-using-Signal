@@ -1,5 +1,3 @@
-# Angular linkedSignal(): The Missing Link in Signal-Based Reactivity
+# Angular 19 Loader
 
-Angular’s linkedSignal is a key addition to the Angular Signals API - it enables certain edge cases to be easily implemented with signals in a much more reactive and declarative way.
-
-https://blog.angular-university.io/angular-linkedsignal/
+![Loader](https://github.com/piyalidas10/Angular-19-loader-using-Signal/blob/b30b7c20ee1fe648fc816b7492134116aeaafa70/loader.png)
