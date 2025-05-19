@@ -1,0 +1,22 @@
+@if (users().length > 0) {
+<table>
+  <tr>
+    <th>Id</th>
+    <th>Name</th>
+    <th>Age</th>
+  </tr>
+  @for(user of users(); track user.id) {
+  <tr>
+    <td>{{ user.id }}</td>
+    <td>{{ user.firstName }} {{ user.lastName }}</td>
+    <td>{{ user.age }}</td>
+  </tr>
+  } @empty {
+  <tr>
+    <td colspan="3">Users not avilable</td>
+  </tr>
+  }
+</table>
+} @else {
+<p>Users are not available</p>
+}
